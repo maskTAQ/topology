@@ -1,0 +1,80 @@
+html{
+	color:#000;
+	background:#FFF;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+button{
+	border:none;
+	background:none;
+	outline:none;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset, img {
+	border:0;
+}
+address, caption, cite, code, dfn, em, th, var {
+	font-style:normal;
+	font-weight:normal;
+}
+li {
+	list-style:none;
+}
+caption, th {
+	text-align:left;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before, q:after {
+	content:'';
+}
+abbr, acronym {
+	border:0;
+	font-variant:normal;
+}
+sup {
+	vertical-align:text-top;
+}
+sub {
+	vertical-align:text-bottom;
+}
+input, textarea, select {
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+	outline: none;
+}
+input, textarea, select {
+	*font-size:100%;
+}
+legend {
+	color:#000;
+}
+a{
+	text-decoration: none!important;
+}
+i{
+	font-style:normal;
+}
+
+
+
+.clearfix:after{       
+	content: ".";     /**//*内容为“.”就是一个英文的句号而已。也可以不写。*/
+	display: block;   /**//*加入的这个元素转换为块级元素。*/
+	clear: both;     /**//*清除左右两边浮动。*/
+	visibility: hidden;      /**//*可见度设为隐藏。注意它和display:none;是有区别的。visibility:hidden;仍然占据空间，只是看不到而已；*/
+	line-height: 0;    /**//*行高为0；*/
+	height: 0;     /**//*高度为0；*/
+	font-size:0;    /**//*字体大小为0；*/
+}
+
+.clearfix{ *zoom:1;}   /**//*这是针对于IE6的，因为IE6不支持:after伪类，这个神奇的zoom:1让IE6的元素可以清除浮动来包裹内部元素。*/
