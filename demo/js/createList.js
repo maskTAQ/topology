@@ -76,5 +76,5 @@
 
 		});
 		group_wrapper_html = group_wrapper_html + '</div>';
-		$('.container-device-info').append(group_wrapper_html);
+		$('.device-info-wrapper').append(group_wrapper_html);
 	}
