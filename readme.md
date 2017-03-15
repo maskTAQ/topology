@@ -4,7 +4,6 @@
 2. 引入Smt_topology.js
 
     初始化界面
-
 ````javascript
 Smt_topology.init({
     domId: 'domId',
