@@ -1,9 +1,13 @@
 # 基于go.js 的动态绘制拓扑图插件
-    使用方法
-1. 引入go.js
-2. 引入Smt_topology.js
 
-    初始化界面
+## 使用方法
+1. 引入go.js
+2. 引入Smt_topology.js 
+
+````javascript
+初始化界面
+````
+
 ````javascript
 Smt_topology.init({
     domId: 'domId',
